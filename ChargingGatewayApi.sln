@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChargingGatewayApi", "ChargingGatewayApi\ChargingGatewayApi.csproj", "{F3348819-AB33-42A5-A15A-E7BAB5CB895D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChargingGatewayApi.Tests", "ChargingGatewayApi.Tests\ChargingGatewayApi.Tests.csproj", "{593BE104-1AD6-4F68-BA16-B5FF8E6D819E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluePayLibrary", "BluePayLibrary\BluePayLibrary.csproj", "{6A43C6D7-EA95-4802-B9BE-1199001F4112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluePayLibrary.Tests", "BluePayLibrary.Tests\BluePayLibrary.Tests.csproj", "{CD4C9A48-EE70-4AAD-B20D-80A0E3E1C30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3348819-AB33-42A5-A15A-E7BAB5CB895D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3348819-AB33-42A5-A15A-E7BAB5CB895D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3348819-AB33-42A5-A15A-E7BAB5CB895D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3348819-AB33-42A5-A15A-E7BAB5CB895D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593BE104-1AD6-4F68-BA16-B5FF8E6D819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593BE104-1AD6-4F68-BA16-B5FF8E6D819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593BE104-1AD6-4F68-BA16-B5FF8E6D819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593BE104-1AD6-4F68-BA16-B5FF8E6D819E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A43C6D7-EA95-4802-B9BE-1199001F4112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A43C6D7-EA95-4802-B9BE-1199001F4112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A43C6D7-EA95-4802-B9BE-1199001F4112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A43C6D7-EA95-4802-B9BE-1199001F4112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4C9A48-EE70-4AAD-B20D-80A0E3E1C30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4C9A48-EE70-4AAD-B20D-80A0E3E1C30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4C9A48-EE70-4AAD-B20D-80A0E3E1C30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4C9A48-EE70-4AAD-B20D-80A0E3E1C30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7FAC49F-DC11-4816-BE3D-DC6DE44F2A84}
+	EndGlobalSection
+EndGlobal
